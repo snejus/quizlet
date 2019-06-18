@@ -1,5 +1,5 @@
 from setuptools import setup
-from pip3 import req
+from pip._internal import req
 
 
 def parse_requirements(filename):
